@@ -1,0 +1,57 @@
+.\"
+.\" TRAVESTY.1 --Manual page for "travesty"
+.\"
+.TH travesty 1 "version" "build" "local utilities"
+.SH NAME
+travesty \- print some randomly jumbled text
+.SH SYNOPSIS
+.SY travesty
+.OP -l  length
+.OP -o  order
+.OP -s  seed
+files...
+.YS
+.SH DESCRIPTION
+The
+.B travesty
+command writes semi-random text to
+.I stdout
+based on the letter frequencies of the text input.
+The text is either input from
+.IR stdin ,
+or from the files specified as arguments.
+
+The text is output on one line; use
+.B fmt
+to wrap the text as needed.
+.SH OPTIONS
+.TP
+.BI \-l\  length
+.TQ
+.BI \-\-length\fR= length
+Print
+.I length
+characters.  If this option is not specified, 1000 characters are printed.
+.TP
+.BI \-o\  order
+.TQ
+.BI \-\-order\fR= order
+Specify the order of letter frequency to use.  For example, an
+.I order
+of 3 uses
+trigraph frequencies.  Larger values of
+.I order
+perturbs the text less,
+generating more readable/believable output.
+.TP
+.BI \-s\ seed
+.TQ
+.BI \-\-seed\fR= seed
+Force a starting value for randomness.  If this option is not
+specified, the current time is used as a seed.
+.SH "EXIT STATUS"
+.B travesty
+returns 2 if there was an error in the command line
+arguments, 1 if there were other processing errors.
+.SH SEE ALSO
+.BR fmt (1)
