@@ -56,6 +56,7 @@ static FILE *input_file;
 static size_t order;
 static int random_seed;
 static int chars_max;
+static int print_version;
 
 static char help_prologue[] = "travesty [options]...";
 static Option opts[] = {               /* command-line options... */
@@ -74,6 +75,10 @@ static Option opts[] = {               /* command-line options... */
      .value = "0",
      .doc = "initialise the random number seed value",
      .proc = opt_int,.data = (int *) &random_seed},
+    {
+     .opt = 'V',.name = "version",.value_name = "version",
+     .doc = "print the version number and exit",
+     .proc = opt_bool,.data = (int *) &print_version},
     OPTION_LOG,
     {.opt = 0}
 };
@@ -94,7 +99,11 @@ int main(int argc, char *argv[])
         opt_usage(help_prologue, opts, NULL);
         exit(2);
     }
-    info("version: %s-%s", version, build);
+    if (print_version)
+    {
+        printf("travesty version %s-%s\n", version, build);
+        exit(0);
+    }
 
     random_seed = random_seed ? random_seed : time(0l);
     info("random seed: %d", random_seed);
