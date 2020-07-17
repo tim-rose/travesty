@@ -32,7 +32,7 @@ it. Don’t grow fonder...
 
 ## Requirements
 
-* [devkit](https://github.com/tim-rose/devkit)
+* [makeshift](https://github.com/tim-rose/makeshift)
 * [libxtd](https://github.com/tim-rose/libxtd)
 
 ## License

@@ -2,7 +2,7 @@ Package: travesty
 Section: misc
 Priority: extra
 Maintainer: Tim Rose <tim.rose@acm.org>
-Version: 0.0.0
+Version: 0.0.1
 Description: 
 A semi-random text scrambler.
 

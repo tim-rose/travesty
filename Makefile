@@ -9,7 +9,7 @@ C_MAIN_SRC = travesty.c
 C_SRC = travesty.c
 MAN1_SRC = travesty.1
 
-include devkit.mk version.mk package.mk
+include makeshift.mk version.mk package.mk
 
 $(C_MAIN): -lxtd
 
