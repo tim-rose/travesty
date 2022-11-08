@@ -8,7 +8,7 @@ A drowning man will clutch at a straw.
 Adversity and loss make a man wise.
 A fool and his money are soon parted.
 A journey of thousand miles begins with a single step.
-A leopard can’t/ doesn’t change its spots.
+A leopard doesn’t change its spots.
 All good things come to an end.
 All’s well that ends well.
 All that glitters is not gold.
@@ -145,6 +145,6 @@ You can’t fit a round peg in a square hole.
 You can’t have your cake and eat it too.
 You can’t make an omelette without breaking eggs.
 You can’t teach an old dog new tricks.
-You can’t unscramble a scrambled egg.
+You can’t unscramble an egg.
 You can’t win them all.
 You show me the man and I’ll show you the rule.

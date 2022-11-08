@@ -26,11 +26,11 @@
 #include <ctype.h>
 #include <time.h>
 
-#include <option.h>
-#include <strparse.h>
-#include <vector.h>
-#include <estring.h>
-#include <log.h>
+#include <xtd/option.h>
+#include <xtd/strparse.h>
+#include <xtd/vector.h>
+#include <xtd/estring.h>
+#include <xtd/log.h>
 
 #ifndef VERSION
 #define VERSION "local"
