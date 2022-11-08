@@ -35,9 +35,6 @@
 #ifndef VERSION
 #define VERSION "local"
 #endif /* VERSION */
-#ifndef BUILD
-#define BUILD "latest"
-#endif /* BUILD */
 
 #define ORDER_MAX	16                 /* amount of lookahead */
 
@@ -47,7 +44,6 @@ static int opt_order(const char *name, const char *value, void *data);
 
 static const char name[] = "travesty";
 static const char version[] = VERSION;
-static const char build[] = BUILD;
 
 /*
  * Program configuration variables controlled by command-line options.
@@ -101,7 +97,7 @@ int main(int argc, char *argv[])
     }
     if (print_version)
     {
-        printf("travesty version %s-%s\n", version, build);
+        printf("travesty version %s\n", version);
         exit(0);
     }
 
