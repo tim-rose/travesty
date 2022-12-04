@@ -33,7 +33,7 @@
 #include <xtd/log.h>
 
 #ifndef VERSION
-#define VERSION "local"
+#define VERSION "unknown"
 #endif /* VERSION */
 
 #define ORDER_MAX	16                 /* amount of lookahead */
