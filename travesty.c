@@ -18,7 +18,7 @@
  * higher "orders" the frequency of longer sequences of characters
  * are used.
  */
-#include <xtd.h>
+#include <apex.h>
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -26,11 +26,11 @@
 #include <ctype.h>
 #include <time.h>
 
-#include <xtd/option.h>
-#include <xtd/strparse.h>
-#include <xtd/vector.h>
-#include <xtd/estring.h>
-#include <xtd/log.h>
+#include <apex/option.h>
+#include <apex/strparse.h>
+#include <apex/vector.h>
+#include <apex/estring.h>
+#include <apex/log.h>
 
 #ifndef VERSION
 #define VERSION "unknown"

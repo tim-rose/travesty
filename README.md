@@ -33,7 +33,7 @@ it. Don’t grow fonder...
 ## Requirements
 
 * [makeshift](https://github.com/tim-rose/makeshift)
-* [libxtd](https://github.com/tim-rose/libxtd)
+* [libapex](https://github.com/tim-rose/libapex)
 
 ## License
 
