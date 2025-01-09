@@ -1,7 +1,6 @@
 #
 # Makefile --Build rules for travesty.
 #
-BUILD_PATH = ../apex/libapex
 PACKAGE = travesty
 #package-type = rpm deb
 package-type = deb
